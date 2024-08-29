@@ -66,3 +66,22 @@ color: black;
 padding-bottom: 10px;
 }
 
+@media  (max-width: 768px) {
+  .middle-bar{
+    
+    flex-direction: column;
+     gap: 20px;
+  }
+  .top-bar{
+    height: 10vh;
+  }
+
+  .main{
+    width: 80%;
+  }
+
+  .menu{
+gap: 10px;
+flex-wrap: wrap;
+  }
+}
