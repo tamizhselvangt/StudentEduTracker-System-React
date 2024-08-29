@@ -1,0 +1,32 @@
+
+
+.card{
+  width: 250px;
+  height: 150px;
+  background-color: red;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.icon{
+  font-size: 5rem;
+  color: white;
+}
+.card-top{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  padding: 0px 10px;
+}
+
+
+.card-bottom{
+  padding-right: 10px;
+  color: white;
+}
